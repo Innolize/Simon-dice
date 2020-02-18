@@ -1,0 +1,23 @@
+{
+  "name": "simon-dice",
+  "version": "1.0.0",
+  "description": "Juego Simon dice r/argentina programa",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Innolize/Simon-dice.git"
+  },
+  "author": "Román Metter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Innolize/Simon-dice/issues"
+  },
+  "homepage": "https://github.com/Innolize/Simon-dice#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  }
+}
