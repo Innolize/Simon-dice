@@ -8,13 +8,13 @@ const $cuadros = document.querySelectorAll(".cuadro")
 
 let secuenciaMaquina = []
 let secuenciaJugador = []
-let numeroRonda = 0
+
 
 
 
 $comenzar.onclick = function () {
 
-
+    let numeroRonda = 0
 
     manejarRondas();
     function manejarRondas() {
