@@ -10,12 +10,18 @@ let secuenciaMaquina = []
 let secuenciaJugador = []
 
 
+function estadoAlCargarPagina(){
+    document.querySelector("#estado").textContent = "Estás listo para jugar? cuando quieras!"
+    document.querySelector("#ronda").textContent = "Número de rondas"
+}
 
+
+
+estadoAlCargarPagina()
 
 $comenzar.onclick = function () {
 
     let numeroRonda = 0
-
     manejarRondas();
     function manejarRondas() {
         bloquearInputUsuario();
@@ -32,9 +38,6 @@ $comenzar.onclick = function () {
             setTimeout(function () {
                 resaltar($cuadros);
             }, retardoMS);
-
-
-
         });
 
         secuenciaJugador = []
@@ -46,8 +49,6 @@ $comenzar.onclick = function () {
         function turnoDelJugador() {
             setTimeout(function () {
                 estadoTurnoJugador();
-
-
             }, retrasoJugador);
             habilitarInputUsuario();
 
