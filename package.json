@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Innolize/Simon-dice#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "http-serve": "^1.0.1",
     "jquery": "^3.4.1"
   },
   "devDependencies": {
